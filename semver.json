@@ -1,0 +1,29 @@
+{
+  "non-breaking": {
+    "stable": {
+      "matchUpdateTypes": [
+        "digest",
+        "patch"
+      ]
+    },
+    "unstable": {
+      "matchUpdateTypes": [
+        "minor"
+      ],
+      "matchCurrentVersion": ">=1.0.0"
+    }
+  },
+  "breaking": {
+    "stable": {
+      "matchUpdateTypes": [
+        "major"
+      ]
+    },
+    "unstable": {
+      "matchUpdateTypes": [
+        "minor"
+      ],
+      "matchCurrentVersion": "<1.0.0"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "OpenTelemetry ecosystem crates",
+  "packageRules": [
+    {
+      "groupName": "opentelemetry crates",
+      "matchDatasources": [
+        "crate"
+      ],
+      "matchManagers": [
+        "cargo"
+      ],
+      "matchPackagePatterns": [
+        "^opentelemetry[-_]?"
+      ]
+    },
+    {
+      "groupName": "opentelemetry crates",
+      "matchDatasources": [
+        "crate"
+      ],
+      "matchManagers": [
+        "cargo"
+      ],
+      "matchPackageNames": [
+        "tracing-opentelemetry"
+      ]
+    }
+  ]
+}

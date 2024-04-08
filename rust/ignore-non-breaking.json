@@ -1,0 +1,32 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Ignore all non-semver-breaking Rust crate updates for dependencies and build-dependencies",
+  "packageRules": [
+    {
+      "extends": [
+        "github>neoeinstein/renovate-config:semver/non-breaking/stable"
+      ],
+      "enabled": false,
+      "matchDatasources": ["crate"],
+      "matchManagers": ["cargo"],
+      "matchDepTypes": [
+        "dependencies",
+        "workspace.dependencies",
+        "build-dependencies"
+      ]
+    },
+    {
+      "extends": [
+        "github>neoeinstein/renovate-config:semver/non-breaking/unstable"
+      ],
+      "enabled": false,
+      "matchDatasources": ["crate"],
+      "matchManagers": ["cargo"],
+      "matchDepTypes": [
+        "dependencies",
+        "workspace.dependencies",
+        "build-dependencies"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Defaults for Rust library crates",
+  "extends": [
+    "github>neoeinstein/renovate-config//rust/ignore-non-breaking"
+  ]
+}

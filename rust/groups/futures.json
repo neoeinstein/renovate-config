@@ -1,0 +1,18 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Futures ecosystem crates",
+  "packageRules": [
+    {
+      "groupName": "futures crates",
+      "matchDatasources": [
+        "crate"
+      ],
+      "matchManagers": [
+        "cargo"
+      ],
+      "matchPackagePatterns": [
+        "^futures[-_]?"
+      ]
+    }
+  ]
+}

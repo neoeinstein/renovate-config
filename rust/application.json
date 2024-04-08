@@ -1,0 +1,7 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Defaults for Rust applications",
+  "extends": [
+    "github>neoeinstein/renovate-config//rust/batch-non-breaking"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": [
+    "Group known Rust monorepos/ecosystems"
+  ],
+  "extends": [
+    "github>neoeinstein/renovate-config//rust/groups/axum",
+    "github>neoeinstein/renovate-config//rust/groups/futures",
+    "github>neoeinstein/renovate-config//rust/groups/hyper",
+    "github>neoeinstein/renovate-config//rust/groups/opentelemetry",
+    "github>neoeinstein/renovate-config//rust/groups/protobuf",
+    "github>neoeinstein/renovate-config//rust/groups/rustls",
+    "github>neoeinstein/renovate-config//rust/groups/serde",
+    "github>neoeinstein/renovate-config//rust/groups/tokio",
+    "github>neoeinstein/renovate-config//rust/groups/tower",
+    "github>neoeinstein/renovate-config//rust/groups/tracing"
+  ]
+}

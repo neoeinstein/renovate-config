@@ -1,0 +1,18 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Tower ecosystem crates",
+  "packageRules": [
+    {
+      "groupName": "tower crates",
+      "matchDatasources": [
+        "crate"
+      ],
+      "matchManagers": [
+        "cargo"
+      ],
+      "matchSourceUrlPrefixes": [
+        "https://github.com/tower-rs/"
+      ]
+    }
+  ]
+}

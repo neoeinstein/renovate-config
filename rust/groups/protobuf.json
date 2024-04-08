@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Protobuf & gRPC ecosystem crates",
+  "packageRules": [
+    {
+      "groupName": "protobuf & gRPC crates",
+      "matchDatasources": [
+        "crate"
+      ],
+      "matchManagers": [
+        "cargo"
+      ],
+      "matchPackagePatterns": [
+        "^prost[-_]?",
+        "^tonic[-_]?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Hyper ecosystem crates",
+  "packageRules": [
+    {
+      "groupName": "hyper crates",
+      "matchDatasources": [
+        "crate"
+      ],
+      "matchManagers": [
+        "cargo"
+      ],
+      "matchPackageNames": [
+        "h2",
+        "h3",
+        "headers",
+        "http",
+        "http-body",
+        "hyper",
+        "hyper-tls",
+        "hyper-util",
+        "mime"
+      ]
+    }
+  ]
+}
