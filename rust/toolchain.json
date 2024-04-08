@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Rust toolchain lockfile management",
+  "description": "Manage updates for the Rust toolchain lockfile",
   "customManagers": [
     {
       "description": "Rust toolchain lockfile",

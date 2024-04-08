@@ -1,6 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Tower ecosystem crates",
   "packageRules": [
     {
       "groupName": "tower crates",

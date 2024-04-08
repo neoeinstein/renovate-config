@@ -1,0 +1,24 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Require approval before opening PRs with potentially breaking changes.",
+  "packageRules": [
+    {
+      "extends": [
+        "github>neoeinstein/renovate-config:semver/breaking/unstable"
+      ],
+      "matchManagers": [
+        "cargo"
+      ],
+      "dependencyDashboardApproval": true
+    },
+    {
+      "extends": [
+        "github>neoeinstein/renovate-config:semver/breaking/stable"
+      ],
+      "matchManagers": [
+        "cargo"
+      ],
+      "dependencyDashboardApproval": true
+    }
+  ]
+}

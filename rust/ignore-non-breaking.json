@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Ignore all non-semver-breaking Rust crate updates for dependencies and build-dependencies",
+  "description": "Ignore all non-semver-breaking Rust crate updates for dependencies and build-dependencies.",
   "packageRules": [
     {
       "extends": [

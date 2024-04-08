@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Batch all non-semver-breaking Rust crate updates",
+  "description": "Batch all non-semver-breaking Rust crate updates.",
   "packageRules": [
     {
       "extends": [

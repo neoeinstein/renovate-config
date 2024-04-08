@@ -1,6 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Rustls ecosystem crates",
   "packageRules": [
     {
       "groupName": "rustls crates",

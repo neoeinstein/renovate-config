@@ -1,6 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Hyper ecosystem crates",
   "packageRules": [
     {
       "groupName": "hyper crates",

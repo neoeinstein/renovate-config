@@ -1,6 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Axum ecosystem crates",
   "packageRules": [
     {
       "groupName": "axum crates",
