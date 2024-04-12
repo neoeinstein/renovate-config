@@ -2,6 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Group known Rust monorepos/ecosystems crates together.",
   "extends": [
+    "github>neoeinstein/renovate-config//rust/groups/aliri",
     "github>neoeinstein/renovate-config//rust/groups/axum",
     "github>neoeinstein/renovate-config//rust/groups/futures",
     "github>neoeinstein/renovate-config//rust/groups/hyper",

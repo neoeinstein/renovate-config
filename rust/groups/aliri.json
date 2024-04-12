@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "groupName": "aliri crates",
+      "matchDatasources": [
+        "crate"
+      ],
+      "matchManagers": [
+        "cargo"
+      ],
+      "matchSourceUrls": [
+        "https://github.com/neoeinstein/aliri"
+      ]
+    }
+  ]
+}
