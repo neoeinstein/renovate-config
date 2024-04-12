@@ -7,6 +7,7 @@
     "github>neoeinstein/renovate-config//rust/groups/futures",
     "github>neoeinstein/renovate-config//rust/groups/hyper",
     "github>neoeinstein/renovate-config//rust/groups/opentelemetry",
+    "github>neoeinstein/renovate-config//rust/groups/proc-macro",
     "github>neoeinstein/renovate-config//rust/groups/protobuf",
     "github>neoeinstein/renovate-config//rust/groups/rustls",
     "github>neoeinstein/renovate-config//rust/groups/serde",
