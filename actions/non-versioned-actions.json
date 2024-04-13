@@ -10,7 +10,7 @@
         "dtolnay/rust-toolchain",
         "taiki-e/install-action"
       ],
-      "matchCurrentValue": "stable|nightly",
+      "matchCurrentValue": "/stable|nightly/",
       "versioning": "regex:^(?<major>\\d+)?(?<compatibility>.+)"
     }
   ]
