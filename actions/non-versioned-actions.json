@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Enable pinning for common Rust GitHub actions",
+  "packageRules": [
+    {
+      "matchDepTypes": [
+        "action"
+      ],
+      "matchPackageNames": [
+        "dtolnay/rust-toolchain",
+        "taiki-e/install-action"
+      ],
+      "matchCurrentValue": "stable|nightly",
+      "versioning": "regex:^(?<major>\\d+)?(?<compatibility>.+)"
+    }
+  ]
+}
