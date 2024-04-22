@@ -1,12 +1,14 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
+    "config:recommended",
+    "docker:pinDigests",
+    "helpers:pinGitHubActionDigests",
     "github>neoeinstein/renovate-config:actions",
     "github>neoeinstein/renovate-config:rust",
     "github>neoeinstein/renovate-config:schedule",
     "github>neoeinstein/renovate-config:vulnerability-alerts",
     "github>neoeinstein/renovate-config:ignores",
-    "docker:pinDigests",
     ":dependencyDashboard"
   ]
 }

@@ -2,10 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Apply default settings for Rust crates.",
   "extends": [
-    "config:recommended",
-    "docker:pinDigests",
-    "helpers:pinGitHubActionDigests",
-    "github>neoeinstein/renovate-config:vulnerability-alerts",
     "github>neoeinstein/renovate-config//rust/groups",
     "github>neoeinstein/renovate-config//rust/label",
     "github>neoeinstein/renovate-config//rust/toolchain"
