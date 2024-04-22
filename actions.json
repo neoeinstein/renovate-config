@@ -2,6 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Apply default github actions presets.",
   "extends": [
+    "github>neoeinstein/renovate-config//actions/formatting",
     "github>neoeinstein/renovate-config//actions/pin"
   ]
 }
