@@ -1,0 +1,13 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "customManagers": [
+    {
+      "description": "Update version keys in YAML files",
+      "customType": "regex",
+      "fileMatch": ["(^|/).*\\.ya?ml$"],
+      "matchStrings": [
+        "# renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>[^\\s]+?)(?: depType=(?<depType>[^\\s]+?))?(?: packageName=(?<packageName>[^\\s]+?))?(?: versioning=(?<versioning>[a-z-0-9]+?))?\\s*[\\w-_]*.+: ['\"]?(?<currentValue>[^\\s'\"]+?)"
+      ]
+    }
+  ]
+}
