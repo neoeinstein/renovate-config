@@ -1,0 +1,20 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Update Rust tool dependencies in GitHub Actions workflows",
+  "customManagers": [
+    {
+      "description": "Update Rust tool dependencies in GitHub Actions workflows",
+      "customType": "regex",
+      "fileMatch": [
+        "(^|/)(workflow-templates|\\.(?:github|gitea|forgejo)/(?:workflows|actions))/.+\\.ya?ml$",
+        "(^|/)action\\.ya?ml$"
+      ],
+      "matchStrings": [
+        "- uses: +taiki-e/install-action@[^\\n]+\\n\\s+with:\\n\\s+tool: +(?<depName>[\\w\\d-_]+)@(?<currentValue>\\d+(?:\\.\\d+(?:\\.\\d+)))"
+      ],
+      "depTypeTemplate": "build-tools",
+      "datasourceTemplate": "crate",
+      "versioningTemplate": "semver-coerced"
+    }
+  ]
+}

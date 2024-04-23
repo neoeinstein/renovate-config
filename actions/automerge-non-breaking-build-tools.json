@@ -1,0 +1,26 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Automerge Rust tool updates in GitHub Actions workflows",
+  "packageRules": [
+    {
+      "extends": [
+        "github>neoeinstein/renovate-config:semver/non-breaking/unstable"
+      ],
+      "matchDepTypes": [
+        "build-tools"
+      ],
+      "groupName": "build tools",
+      "automerge": true
+    },
+    {
+      "extends": [
+        "github>neoeinstein/renovate-config:semver/non-breaking/stable"
+      ],
+      "matchDepTypes": [
+        "build-tools"
+      ],
+      "groupName": "build tools",
+      "automerge": true
+    }
+  ]
+}
